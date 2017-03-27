@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<perhotelan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="perhotelan.xsd"> 
+<datatamu>
+<tamu>
+	<nama sebutan="Ms.">Kezia</nama>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<kotaasal>Kupang</kotaasal>
+	<no.hp code="+62">1353226745</no.hp>
+	<alasan_menginap>Liburan</alasan_menginap>
+	<kamar>
+		<kode>A01</kode>
+		<nama_kamar>Melati</nama_kamar>
+		<lama_sewa>perhari</lama_sewa>
+		<harga>500000</harga>
+		<jumlah_orang>2</jumlah_orang>
+	</kamar>
+</tamu>
+</datatamu>
+
+<datatamu>
+<tamu>
+	<nama sebutan="Mr.">Bene</nama>
+	<jeniskelamin>Laki-laki</jeniskelamin>
+	<kotaasal>Medan</kotaasal>
+	<no.hp code="+62">1353445678</no.hp>
+	<alasan_menginap>Liburan</alasan_menginap>
+	<kamar>
+		<kode>A02</kode>
+		<nama_kamar>Mawar</nama_kamar>
+		<lama_sewa>perhari</lama_sewa>
+		<harga>600000</harga>
+		<jumlah_orang>1</jumlah_orang>
+	</kamar>
+</tamu>
+</datatamu>
+
+<datatamu>
+<tamu>
+	<nama sebutan="Mr.">Jhon</nama>
+	<jeniskelamin>Laki-laki</jeniskelamin>
+	<kotaasal>Medan</kotaasal>
+	<no.hp code="+62">189736478</no.hp>
+	<alasan_menginap>Liburan</alasan_menginap>
+	<kamar>
+		<kode>A03</kode>
+		<nama_kamar>Kamboja</nama_kamar>
+		<lama_sewa>perhari</lama_sewa>
+		<harga>500000</harga>
+		<jumlah_orang>2</jumlah_orang>
+	</kamar>
+</tamu>
+</datatamu>
+
+<datatamu>
+<tamu>
+	<nama sebutan="Ms.">Aya</nama>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<kotaasal>Bekasi</kotaasal>
+	<no.hp code="+62">1320453124</no.hp>
+	<alasan_menginap>Liburan</alasan_menginap>
+	<kamar>
+		<kode>A04</kode>
+		<nama_kamar>Bougenvil</nama_kamar>
+		<lama_sewa>perhari</lama_sewa>
+		<harga>500000</harga>
+		<jumlah_orang>3</jumlah_orang>
+	</kamar>
+</tamu>
+</datatamu>
+
+<datatamu>
+<tamu>
+	<nama sebutan="Ms.">Dila</nama>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<kotaasal>Sulawesi</kotaasal>
+	<no.hp code="+62">1320453123</no.hp>
+	<alasan_menginap>Pekerjaan</alasan_menginap>
+	<kamar>
+		<kode>A05</kode>
+		<nama_kamar>Anggrek</nama_kamar>
+		<lama_sewa>perhari</lama_sewa>
+		<harga>500000</harga>
+		<jumlah_orang>3</jumlah_orang>
+	</kamar>
+</tamu>
+</datatamu>
+
+<datatamu>
+<tamu>
+	<nama sebutan="Ms.">Pebri</nama>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<kotaasal>Sarijadi</kotaasal>
+	<no.hp code="+62">1320453123</no.hp>
+	<alasan_menginap>Kerja</alasan_menginap>
+	<kamar>
+		<kode>A06</kode>
+		<nama_kamar>Kamboja</nama_kamar>
+		<lama_sewa>perhari</lama_sewa>
+		<harga>700000</harga>
+		<jumlah_orang>3</jumlah_orang>
+	</kamar>
+</tamu>
+</datatamu>
+</perhotelan>

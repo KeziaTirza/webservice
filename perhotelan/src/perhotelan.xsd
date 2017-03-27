@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="perhotelan">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="datatamu"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="datatamu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tamu"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tamu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama"/>
+                <xs:element ref="jeniskelamin"/>
+                <xs:element ref="kotaasal"/>
+                <xs:element ref="no.hp"/>
+                <xs:element ref="alasan_menginap"/>
+                <xs:element ref="kamar"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:NCName">
+                    <xs:attribute name="sebutan" use="required" type="xs:NCName"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="jeniskelamin" type="xs:NCName"/>
+    <xs:element name="kotaasal" type="xs:NCName"/>
+    <xs:element name="no.hp">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:integer">
+                    <xs:attribute name="code" use="required" type="xs:integer"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alasan_menginap" type="xs:NCName"/>
+    <xs:element name="kamar">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="kode" minOccurs="1"/>
+                <xs:element ref="nama_kamar"/>
+                <xs:element ref="lama_sewa"/>
+                <xs:element ref="harga"/>
+                <xs:element ref="jumlah_orang"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="kode" type="xs:NCName"/>
+    <xs:element name="nama_kamar" type="xs:NCName"/>
+    <xs:element name="lama_sewa" type="xs:NCName"/>
+    <xs:element name="harga">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:integer">
+
+    			<xs:minInclusive value="10000"></xs:minInclusive>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="jumlah_orang" type="xs:integer"/>
+</xs:schema>
